@@ -9,6 +9,8 @@ function bisextile(annee) {
     return false;
 }
 }
+console.log(bisextile(2023)); 
+console.log(bisextile(2024)); 
 
 function verifierBissextile() {
   var  anneeInput = document.getElementById("anneeInput").value;
